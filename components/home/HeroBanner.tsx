@@ -9,7 +9,7 @@ export default function HeroBanner() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/banner-kelurahan.png"
-          alt="Banner Panorama Kelurahan Nusantara Makmur"
+          alt="Banner Panorama Kelurahan Lautang Benteng"
           fill
           priority
           className="object-cover object-center scale-105 animate-[pulse_15s_ease-in-out_infinite_alternate]"
@@ -22,22 +22,22 @@ export default function HeroBanner() {
       {/* Main Content Area */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12 my-auto flex flex-col items-start text-left">
         {/* Badge / Motto */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs sm:text-sm font-semibold mb-6 backdrop-blur-md shadow-inner">
+        <div className="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs sm:text-sm font-semibold mb-6 backdrop-blur-md shadow-inner">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-          <span>Portal Informasi & Layanan Masyarakat Digital</span>
+          <span>Portal Resmi & Layanan Digital | KKN Tematik Inovasi Desa Unhas Gel. 116</span>
         </div>
 
         {/* Hero Heading */}
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight max-w-4xl drop-shadow-sm">
           Selamat Datang di Portal Resmi <br />
           <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300 bg-clip-text text-transparent">
-            Kelurahan Nusantara Makmur
+            Kelurahan Lautang Benteng
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="mt-6 text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl font-normal leading-relaxed text-balance drop-shadow-sm">
-          Mewujudkan tata kelola pemerintahan kelurahan yang cepat, transparan, akuntabel, serta bersinergi secara harmonis dengan masyarakat dalam pengembangan potensi daerah.
+          Selamat datang di website resmi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Sulawesi Selatan. Mewujudkan tata kelola pemerintahan yang cepat, transparan, dan akuntabel bersama KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116.
         </p>
 
         {/* Call to Action Buttons */}

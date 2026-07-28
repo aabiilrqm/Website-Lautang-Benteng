@@ -40,7 +40,7 @@ export default function KontakPage() {
             Kontak & Pengaduan Online Warga
           </h1>
           <p className="mt-4 text-teal-100 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Hubungi kantor Kelurahan Nusantara Makmur untuk jadwal pelayanan tatap muka atau gunakan formulir aspirasi online 24 jam di bawah ini.
+            Hubungi kantor Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang untuk jadwal pelayanan atau gunakan formulir online yang diinisiasi KKN Tematik Inovasi Desa Unhas Gelombang 116.
           </p>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function KontakPage() {
                   Alamat Lengkap Kantor
                 </strong>
                 <p className="text-slate-700 dark:text-slate-300 text-sm font-medium leading-relaxed">
-                  Jalan Garuda Nusantara No. 45, RT 01 / RW 01, Kelurahan Nusantara Makmur, Kecamatan Makmur Raya, Kota Makmur, Kode Pos 50123.
+                  Kantor Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Provinsi Sulawesi Selatan, Kode Pos 91611.
                 </p>
               </div>
 
@@ -97,7 +97,7 @@ export default function KontakPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <svg className="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                    <span>Email: <strong>sekretariat@nusantaramakmur.desa.id</strong></span>
+                    <span>Email: <strong>sekretariat@lautangbenteng.kelurahan.id</strong></span>
                   </div>
                 </div>
               </div>
@@ -107,11 +107,11 @@ export default function KontakPage() {
             <div className="bg-slate-900 rounded-3xl p-6 text-white text-center relative overflow-hidden shadow-lg border border-slate-800">
               <h3 className="text-lg font-bold text-emerald-300 mb-2">Panduan Rute Lokasi</h3>
               <p className="text-xs text-slate-300 leading-relaxed mb-4">
-                Kantor Kelurahan Nusantara Makmur terletak persis di seberang Lapangan Alun-Alun Garuda, 200 meter dari Kantor Pos Kecamatan Makmur Raya.
+                Kantor Kelurahan Lautang Benteng berlokasi strategis di wilayah Kecamatan Maritengngae, Kabupaten Sidenreng Rappang, Sulawesi Selatan. Mudah diakses oleh warga masyarakat maupun pengakses informasi digital.
               </p>
               <div className="h-32 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700 text-xs text-slate-400 flex-col gap-1">
                 <svg className="w-6 h-6 text-amber-500 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span>[ Koordinat GPS: -6.912345, 110.456789 ]</span>
+                <span>[ Koordinat GPS: -3.9167, 119.8000 - Maritengngae, Sidrap ]</span>
                 <span className="text-[10px] text-emerald-400 font-semibold mt-1">Buka di Google Maps &rarr;</span>
               </div>
             </div>

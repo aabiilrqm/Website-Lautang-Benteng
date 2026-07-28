@@ -2,9 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Struktur Organisasi | Kelurahan Nusantara Makmur",
+  title: "Struktur Organisasi | Kelurahan Lautang Benteng",
   description:
-    "Bagan kepemimpinan dan jajaran pejabat fungsional Pemerintah Kelurahan Nusantara Makmur beserta pengurus RW dan RT.",
+    "Bagan kepemimpinan dan jajaran pejabat fungsional Pemerintah Kelurahan Lautang Benteng beserta mitra KKN Tematik Inovasi Desa Unhas Gel. 116.",
 };
 
 interface Official {
@@ -17,11 +17,11 @@ interface Official {
 
 const officials: Official[] = [
   {
-    name: "Drs. H. Bambang Soetopo, M.Si.",
-    role: "Lurah Nusantara Makmur",
-    nip: "19720512 199803 1 004",
+    name: "Lurah Lautang Benteng",
+    role: "Lurah Lautang Benteng",
+    nip: "19750101 200003 1 001",
     category: "pimpinan",
-    bio: "Memimpin pelaksanaan tugas pemerintahan, pembangunan, dan pembinaan kemasyarakatan di wilayah Kelurahan.",
+    bio: "Memimpin pelaksanaan tugas pemerintahan, pembangunan, dan pembinaan kemasyarakatan di wilayah Kelurahan Lautang Benteng, Sidrap.",
   },
   {
     name: "Siti Rahmawati, S.STP.",
@@ -55,19 +55,19 @@ const officials: Official[] = [
     name: "H. Mashudi, B.A.",
     role: "Ketua Forum RW & LPMK",
     category: "lembaga",
-    bio: "Koordinator perwakilan 15 Rukun Warga dan Lembaga Pemberdayaan Masyarakat Kelurahan Nusantara Makmur.",
+    bio: "Koordinator perwakilan Rukun Warga (RW) dan Lembaga Pemberdayaan Masyarakat Kelurahan Lautang Benteng.",
   },
   {
     name: "Ibu Hj. Ratmiatun",
     role: "Ketua Tim Penggerak PKK Kelurahan",
     category: "lembaga",
-    bio: "Menggerakkan 10 program pokok PKK guna membina keluhuran keluarga dan kewirausahaan kaum ibu di desa/kelurahan.",
+    bio: "Menggerakkan 10 program pokok PKK guna membina kesejahteraan keluarga dan kewirausahaan kaum ibu di kelurahan.",
   },
   {
-    name: "Kapten (Purn) Sudarmadi",
-    role: "Komandan Linmas & Satgas Bencana",
+    name: "Tim KKN Tematik Inovasi Desa",
+    role: "Mitra Inovasi Digital Unhas Gel. 116",
     category: "lembaga",
-    bio: "Menjaga kesiapsiagaan lingkungan, keamanan malam, serta penanggulangan siaga tangkap banjir/bencana wilayah.",
+    bio: "Mahasiswa KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116, mitra pengembang sistem informasi desa & kelurahan digital.",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function StrukturOrganisasiPage() {
             Struktur Organisasi Kelurahan
           </h1>
           <p className="mt-4 text-blue-100 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Mengenal jajaran kepemimpinan pejabat kelurahan, para kepala seksi, dan pimpinan lembaga swadaya masyarakat yang bersinergi melayani warga Nusantara Makmur.
+            Mengenal jajaran kepemimpinan pejabat kelurahan, para kepala seksi, pimpinan kelembagaan, serta mitra dari KKN Tematik Inovasi Desa Unhas Gel. 116 yang bersinergi melayani warga Kelurahan Lautang Benteng, Sidrap.
           </p>
         </div>
       </div>

@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Potensi & UMKM Kelurahan | Kelurahan Nusantara Makmur",
+  title: "Potensi & UMKM Kelurahan | Kelurahan Lautang Benteng",
   description:
-    "Eksplorasi ragam produk unggulan UMKM, kerajinan lokal, sektor pertanian hidronik, dan tempat wisata lingkungan di Kelurahan Nusantara Makmur.",
+    "Eksplorasi ragam produk unggulan UMKM, kerajinan lokal, pertanian, dan inovasi warga Kelurahan Lautang Benteng, Sidrap bersama KKN Tematik Inovasi Desa Unhas Gel. 116.",
 };
 
 interface PotensiItem {
@@ -20,22 +20,22 @@ interface PotensiItem {
 
 const potensiList: PotensiItem[] = [
   {
-    title: "Keripik Pisang Madu & Tami Nusantara",
+    title: "Keripik Pisang & Olahan Kuliner Khas Sidrap",
     category: "UMKM & Kuliner",
     description:
-      "Produk camilan keripik renyah rasa manis madu alami dan gurih asin bersertifikasi Halal MUI yang diproduksi oleh kelompok Ibu-ibu PKK RW 04 Nusantara Makmur.",
-    contact: "0812-9876-5432 (Ibu Wulandari)",
-    location: "Sentra Kuliner Warga RW 04",
+      "Produk camilan keripik renyah gurih bersertifikasi Halal yang diproduksi oleh kelompok UMKM dan Ibu-ibu PKK di lingkungan Kelurahan Lautang Benteng.",
+    contact: "0812-9876-5432 (Ibu Wulandari - UMKM)",
+    location: "Sentra Kuliner Lautang Benteng",
     price: "Mulai Rp 15.000 / bungkus",
     badgeColor: "bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-300",
   },
   {
-    title: "Batik Tulis & Cap Motif Makmur Abadi",
+    title: "Kerajinan Tenun & Busana Tradisional Sulsel",
     category: "Kerajinan Lokal",
     description:
-      "Kerajinan kain batik tulis dan cap dengan filosofi daun sirih emas dan alur sawah hijau yang menjadi maskot kebanggaan busana khas Kota Makmur.",
-    contact: "0813-8877-6655 (Sanggar Batik Abadi)",
-    location: "Jl. Merpati Barat No. 12, RW 07",
+      "Kerajinan kain tenun dan busana khas Sulawesi Selatan yang dikerjakan oleh para pengrajin lokal berbakat di wilayah Kelurahan Lautang Benteng, Sidrap.",
+    contact: "0813-8877-6655 (Sanggar Kerajinan)",
+    location: "Jl. Permukiman Warga RW 03",
     price: "Rp 180.000 - Rp 650.000 / lembar",
     badgeColor: "bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300",
   },
@@ -45,7 +45,7 @@ const potensiList: PotensiItem[] = [
     description:
       "Kawasan budidaya sayuran selada, pakcoy, dan melon premium bebas pestisida di pekarangan hijau warga yang juga dibuka sebagai sarana wisata edukasi pertanian anak.",
     contact: "0852-3344-5566 (Kang Ridwan - Kelompok Tani)",
-    location: "Greenhouse Kampung Makmur RW 02",
+    location: "Greenhouse Kampung Inovasi RW 02",
     price: "Sayur segar mulai Rp 10.000 / 250gr",
     badgeColor: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300",
   },
@@ -60,12 +60,12 @@ const potensiList: PotensiItem[] = [
     badgeColor: "bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300",
   },
   {
-    title: "Kopi Sangrai Robusta 'Lembah Makmur'",
+    title: "Produk Olahan Pertanian & Kopi Sidrap",
     category: "UMKM & Kuliner",
     description:
-      "Kopi bubuk asli olahan dari panen kebun lereng timur Nusantara Makmur yang disangrai dengan proses kayu bakar tradisional menghasilkan aroma kuat dan khas.",
-    contact: "0819-2233-4455 (Kedai Kopi Lembah)",
-    location: "Kios BUMDes Nusantara Raya Raya",
+      "Olahan hasil bumi dan bubuk kopi khas yang diproses dari panen perkebunan masyarakat Kabupaten Sidenreng Rappang dengan cita rasa autentik dan berkualitas.",
+    contact: "0819-2233-4455 (Mitra Tani Warga)",
+    location: "Kios UMKM Kelurahan Lautang Benteng",
     price: "Rp 25.000 / 200gr",
     badgeColor: "bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-300",
   },
@@ -75,7 +75,7 @@ const potensiList: PotensiItem[] = [
     description:
       "Inisiatif pengelolaan daur ulang sampah kering warga menjadi produk pupuk kompos organik serta tabungan emas/uang bagi keluarga anggota kelurahan yang aktif.",
     contact: "0811-2233-0099 (Sekretariat Bank Sampah)",
-    location: "Balai Warga RW 01 Nusantara Makmur",
+    location: "Balai Warga Lautang Benteng (Binaan KKN Unhas)",
     badgeColor: "bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300",
   },
 ];
@@ -93,7 +93,7 @@ export default function PotensiPage() {
             Potensi Unggulan Kelurahan
           </h1>
           <p className="mt-4 text-amber-100 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Menampilkan kekayaan kreativitas UMKM warga, produk kerajinan tangan, budidaya tani organik, dan inovasi pemberdayaan lingkungan di Nusantara Makmur.
+            Menampilkan kekayaan kreativitas UMKM warga, produk kerajinan, budidaya pertanian, dan program inovasi digital yang didukung oleh KKN Tematik Inovasi Desa Unhas Gel. 116 di Lautang Benteng, Sidrap.
           </p>
         </div>
       </div>
@@ -107,7 +107,7 @@ export default function PotensiPage() {
               Dukung Produk Lokal, Masyarkat Kelurahan Berdaya!
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-300 mt-1 max-w-2xl">
-              Seluruh produk yang ditampilkan di bawah ini diproduksi langsung oleh tangan-tangan kreatif warga dan mitra BUMDes Kelurahan Nusantara Makmur. Pembelian langsung tanpa perantara!
+              Seluruh produk yang ditampilkan di bawah ini diproduksi langsung oleh tangan-tangan kreatif warga Kelurahan Lautang Benteng, Kecamatan Maritengngae, Sidenreng Rappang. Pembelian langsung kepada produsen lokal!
             </p>
           </div>
           <div className="shrink-0">

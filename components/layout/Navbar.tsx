@@ -67,10 +67,10 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg tracking-tight text-slate-800 dark:text-white leading-tight">
-                Kelurahan Nusantara Makmur
+                Kelurahan Lautang Benteng
               </span>
               <span className="text-xs font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
-                Pemerintah Kota Makmur
+                Kec. Maritengngae - Kab. Sidenreng Rappang
               </span>
             </div>
           </Link>

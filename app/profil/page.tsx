@@ -2,9 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Profil & Sejarah | Kelurahan Nusantara Makmur",
+  title: "Profil & Sejarah | Kelurahan Lautang Benteng",
   description:
-    "Mengenai visi misi, sejarah singkat, kondisi geografis, dan demografi kependudukan Kelurahan Nusantara Makmur, Kecamatan Makmur Raya.",
+    "Mengenai visi misi, sejarah singkat, kondisi geografis, dan demografi kependudukan Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Sulawesi Selatan.",
 };
 
 export default function ProfilPage() {
@@ -18,10 +18,10 @@ export default function ProfilPage() {
             Tentang Kami
           </span>
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
-            Profil Kelurahan Nusantara Makmur
+            Profil Kelurahan Lautang Benteng
           </h1>
           <p className="mt-4 text-emerald-100 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Mengenal lebih dekat sejarah perpindahan dan berdirinya kelurahan, visi misi kepemimpinan, serta data demografi kemasyarakatan.
+            Mengenal lebih dekat visi misi, kondisi kemasyarakatan, serta demografi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang, Sulawesi Selatan.
           </p>
         </div>
       </div>
@@ -39,11 +39,11 @@ export default function ProfilPage() {
                 Visi Kelurahan
               </h2>
               <p className="text-slate-700 dark:text-slate-200 font-medium leading-relaxed italic text-lg">
-                &ldquo;Terwujudnya Pelayanan Prima menuju Masyarakat Kelurahan Nusantara Makmur yang Sejahtera, Religius, Bersih, Berbudaya, dan Berbasis Teknologi Digital pada Tahun 2029.&rdquo;
+                &ldquo;Terwujudnya Pelayanan Prima menuju Masyarakat Kelurahan Lautang Benteng yang Sejahtera, Religius, Bersih, Berbudaya, dan Berbasis Inovasi Digital.&rdquo;
               </p>
             </div>
             <div className="mt-8 pt-4 border-t border-emerald-200 dark:border-emerald-800/60 text-xs font-semibold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider">
-              Pemerintah Kelurahan Nusantara Makmur
+              Pemerintah Kelurahan Lautang Benteng & KKN Unhas Gel. 116
             </div>
           </div>
 
@@ -83,13 +83,13 @@ export default function ProfilPage() {
           </h2>
           <div className="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed text-justify sm:text-left">
             <p>
-              Kelurahan Nusantara Makmur awalnya merupakan desa agraris yang didirikan pada pertengahan tahun 1968 oleh tokoh pemuka adat dan penggiat transmigrasi lokal. Atas semangat kebersamaan warga untuk menciptakan sentra ekonomi baru di pedalaman wilayah Kota Makmur, desa ini perlahan bermetamorfosis dari kawasan pertanian sederhana menjadi pusat perekonomian ruko dan perdagangan perkotaan pinggiran.
+              <strong>Kelurahan Lautang Benteng</strong> merupakan salah satu kelurahan yang terletak di wilayah Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Provinsi Sulawesi Selatan. Wilayah ini memiliki peran strategis sebagai bagian dari pusat aktivitas keagamaan, sosial bermasyarat, serta kegiatan ekonomi masyarakat di Kabupaten Sidrap.
             </p>
             <p>
-              Pada tahun 1995, seiring pesatnya laju urbanisasi dan penetapan Rencana Tata Ruang Wilayah (RTRW) Kota Makmur, status administrasi Desa Nusantara ditingkatkan menjadi <strong>Kelurahan Nusantara Makmur</strong> melalui Keputusan Gubernur Jawa Tengah dan Peraturan Daerah Kota Makmur No. 12 Tahun 1995.
+              Dengan kekayaan nilai budaya kearifan lokal Sulawesi Selatan serta kerukunan masyarakat yang teguh, Kelurahan Lautang Benteng terus bertumbuh menjadi lingkungan yang nyaman, aman, dan berdaya saing dari segi tata kelola maupun UMKM.
             </p>
             <p>
-              Saat ini, di era transformasi informasi dan teknologi digital 2026, Kelurahan Nusantara Makmur terus berbenah menjadi salah satu kelurahan percontohan dalam pelaksanaan pelayanan surat-menyurat terintegrasi sistem elektronik, pengembangan green-environment (kampung hijau ramah lingkungan), dan pendataan warga akurat berbasis transparansi publik.
+              Sebagai langkah nyata dalam percepatan transformasi digital dan optimalisasi pelayanan masyarakat, pada tahun 2026 Pemerintah Kelurahan Lautang Benteng bersinergi bersama <strong>KKN Tematik Inovasi Desa Universitas Hasanuddin (Unhas) Gelombang 116</strong> menghadirkan sistem portal informasi dan layanan publik interaktif berbasis website ini guna memudahkan aksesibilitas warga.
             </p>
           </div>
         </section>
@@ -124,19 +124,19 @@ export default function ProfilPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
               <div className="bg-white/5 p-4 rounded-xl border border-white/10">
                 <strong className="text-amber-300 block mb-1">Sebelah Utara</strong>
-                <span>Kelurahan Mekarpura & Kali Sindang</span>
+                <span>Kelurahan / Desa Tetangga Kec. Maritengngae</span>
               </div>
               <div className="bg-white/5 p-4 rounded-xl border border-white/10">
                 <strong className="text-amber-300 block mb-1">Sebelah Selatan</strong>
-                <span>Desa Sukamulya, Kecamatan Makmur Selatan</span>
+                <span>Wilayah Administrasi Kec. Maritengngae</span>
               </div>
               <div className="bg-white/5 p-4 rounded-xl border border-white/10">
                 <strong className="text-amber-300 block mb-1">Sebelah Timur</strong>
-                <span>Kawasan Hutan Lindung & Bukit Makmur</span>
+                <span>Kawasan Permukiman & Sawah Warga</span>
               </div>
               <div className="bg-white/5 p-4 rounded-xl border border-white/10">
                 <strong className="text-amber-300 block mb-1">Sebelah Barat</strong>
-                <span>Jalan Raya Utama Trans-Nusantara (Kota)</span>
+                <span>Jalan Akses Menuju Pusat Kota Pangkajene (Sidrap)</span>
               </div>
             </div>
           </div>

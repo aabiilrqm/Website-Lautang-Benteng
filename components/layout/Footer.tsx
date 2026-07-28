@@ -21,16 +21,21 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-white text-lg tracking-tight leading-tight">
-                  Kelurahan Nusantara Makmur
+                  Kelurahan Lautang Benteng
                 </span>
                 <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-                  Kecamatan Makmur Raya
+                  Kec. Maritengngae, Kab. Sidrap
                 </span>
               </div>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Portal resmi Pemerintah Kelurahan Nusantara Makmur, berkomitmen memberikan pelayanan publik yang cepat, transparan, akuntabel, dan inovatif bagi seluruh lapisan masyarakat.
+              Portal resmi Pemerintah Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang, Sulawesi Selatan. Berkomitmen memberikan pelayanan publik yang cepat, transparan, dan inovatif.
             </p>
+            <div className="pt-1">
+              <span className="inline-block bg-emerald-950 border border-emerald-700/60 text-emerald-300 text-xs px-2.5 py-1 rounded-md font-semibold">
+                🎓 Inisiatif KKN Tematik Inovasi Desa Unhas Gel. 116
+              </span>
+            </div>
             <div className="flex items-center space-x-3 pt-2">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
               <span className="text-xs font-medium text-emerald-400">Status Kantor: Buka & Aktif Melayani</span>
@@ -115,7 +120,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <strong className="text-slate-200 block">Alamat Kantor</strong>
-                  <span>Jl. Garuda Nusantara No. 45, Kec. Makmur Raya, Kota Makmur, Kode Pos 50123</span>
+                  <span>Kantor Kelurahan Lautang Benteng, Kec. Maritengngae, Kab. Sidenreng Rappang, Sulawesi Selatan, Kode Pos 91611</span>
                 </div>
               </div>
               
@@ -125,7 +130,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <strong className="text-slate-200 block">Telepon & WhatsApp</strong>
-                  <span>(021) 8901-2345 / 0812-3456-7890</span>
+                  <span>(0421) 921-123 / 0812-3456-7890</span>
                 </div>
               </div>
 
@@ -135,7 +140,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <strong className="text-slate-200 block">Email Resmi</strong>
-                  <span>sekretariat@nusantaramakmur.desa.id</span>
+                  <span>sekretariat@lautangbenteng.kelurahan.id</span>
                 </div>
               </div>
             </div>
@@ -146,7 +151,7 @@ export default function Footer() {
         {/* Garis Bawah & Copyright */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            &copy; {new Date().getFullYear()} Pemerintah Kelurahan Nusantara Makmur. Hak Cipta Dilindungi Undang-Undang.
+            &copy; {new Date().getFullYear()} Pemerintah Kelurahan Lautang Benteng. Dipersembahkan oleh KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116.
           </p>
           <div className="flex items-center space-x-6">
             <span className="hover:text-slate-400 transition-colors cursor-pointer">Kebijakan Privasi</span>

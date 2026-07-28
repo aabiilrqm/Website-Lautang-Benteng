@@ -15,7 +15,7 @@ export default function FeatureCards() {
     {
       title: "Profil Kelurahan",
       description:
-        "Pelajari lebih dalam mengenai visi & misi, sejarah singkat berdirinya kelurahan, kondisi geografis, serta peta wilayah Nusantara Makmur.",
+        "Pelajari lebih dalam mengenai visi & misi, sejarah singkat, kondisi geografis, serta demografi wilayah Kelurahan Lautang Benteng, Sidrap.",
       href: "/profil",
       badge: "Informasi Wilayah",
       color: "from-emerald-500/10 to-teal-500/10 text-emerald-600 border-emerald-500/20",
