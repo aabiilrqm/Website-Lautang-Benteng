@@ -1,4 +1,3 @@
-Nama kelurahan yang saya tempati adalah kelurahan lautang benteng, kecamatan maritengngae, kabupaten sidenreng rappang sulawesi selatan. 
+saya ingin mengubah agar yang pertama, itu tidak ada layanan online, dan juga tidak ada ajuan pengaduan. 
 
-tolong ubah semua file atau halaman tentang ini, dan juga kami adalah KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116
-
+dan juga pada footer nya, jam operasional kantor itu senin sampai jumat jam 7.00 sampai jam 16.00 wita dan sabtu minggu itu libur

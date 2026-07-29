@@ -96,18 +96,6 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            
-            <div className="pl-2 border-l border-slate-200 dark:border-slate-700 ml-2">
-              <Link
-                href="/kontak"
-                className="bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-medium text-sm px-4 py-2 rounded-full shadow-md shadow-emerald-600/20 hover:shadow-lg hover:shadow-emerald-600/30 transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 inline-flex items-center gap-1.5"
-              >
-                <span>Layanan Online</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </Link>
-            </div>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -171,15 +159,6 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            <div className="pt-3 border-t border-slate-100 dark:border-slate-800 mt-2">
-              <Link
-                href="/kontak"
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full text-center bg-gradient-to-r from-emerald-600 to-teal-700 text-white font-medium py-2.5 px-4 rounded-lg shadow-md hover:from-emerald-700 hover:to-teal-800 transition-all block"
-              >
-                Layanan Warga Online
-              </Link>
-            </div>
           </div>
         </div>
       )}

@@ -49,7 +49,7 @@ const officials: Official[] = [
     role: "Kasi Pelayanan & Inovasi Digital",
     nip: "19910312 201503 1 002",
     category: "staf",
-    bio: "Mengelola loket pelayanan publik surat-menyurat warga serta pengembangan portal online pengaduan masyarakat.",
+    bio: "Mengelola loket pelayanan publik surat-menyurat warga.",
   },
   {
     name: "H. Mashudi, B.A.",

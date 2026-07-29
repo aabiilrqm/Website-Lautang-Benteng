@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portal Resmi Kelurahan Lautang Benteng | Kab. Sidenreng Rappang",
   description:
-    "Website resmi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Sulawesi Selatan. Informasi pelayanan publik, struktur organisasi, potensi kelurahan, dan kontak pengaduan warga. Inisiatif KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116.",
+    "Website resmi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Sulawesi Selatan. Informasi profil, struktur organisasi, potensi kelurahan, dan kontak. Inisiatif KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116.",
 };
 
 export default function RootLayout({

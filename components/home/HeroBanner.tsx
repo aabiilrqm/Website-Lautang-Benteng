@@ -66,7 +66,7 @@ export default function HeroBanner() {
             href="/kontak"
             className="px-8 py-3.5 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40 font-semibold text-sm sm:text-base backdrop-blur-md transition-all duration-200 flex items-center justify-center text-center"
           >
-            Layanan Pengaduan & Kontak
+            Kontak Kami
           </Link>
         </div>
       </div>

@@ -52,11 +52,11 @@ export default function FeatureCards() {
       ),
     },
     {
-      title: "Kontak & Layanan Warga",
+      title: "Kontak",
       description:
-        "Dapatkan informasi alamat resmi, jam kerja kantor, kontak WhatsApp pelayanan darurat, serta fasilitas penyampaian aspirasi dan pengaduan online.",
+        "Dapatkan informasi alamat resmi, jam kerja kantor, dan kontak WhatsApp pelayanan kelurahan.",
       href: "/kontak",
-      badge: "Pelayanan Publik",
+      badge: "Informasi",
       color: "from-teal-500/10 to-emerald-500/10 text-teal-600 border-teal-500/20",
       icon: (
         <svg className="w-8 h-8 text-teal-600 dark:text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,31 +125,6 @@ export default function FeatureCards() {
               </div>
             </Link>
           ))}
-        </div>
-
-        {/* Quick Announcement Section (Bonus value for realism & aesthetics) */}
-        <div className="mt-16 bg-gradient-to-r from-emerald-800 via-teal-800 to-slate-900 rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden">
-          <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="max-w-2xl text-center lg:text-left">
-              <span className="text-xs font-bold uppercase bg-amber-400 text-slate-900 px-3 py-1 rounded-full inline-block mb-3 shadow">
-                Informasi Penting
-              </span>
-              <h3 className="text-2xl sm:text-3xl font-bold">
-                Layanan Pelaporan & Aspirasi Warga 24 Jam
-              </h3>
-              <p className="mt-2 text-emerald-100 text-sm sm:text-base">
-                Anda ingin mengajukan pembuatan surat pengantar RT/RW, surat keterangan domisili, atau melaporkan kendala fasilitas umum? Gunakan fitur formulir online kami tanpa harus berantre di kantor.
-              </p>
-            </div>
-            <div className="shrink-0">
-              <Link
-                href="/kontak"
-                className="inline-block px-8 py-4 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold text-base shadow-lg transition-transform hover:scale-105 active:scale-95"
-              >
-                Ajukan Pengaduan Sekarang
-              </Link>
-            </div>
-          </div>
         </div>
 
       </div>

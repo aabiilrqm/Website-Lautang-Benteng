@@ -76,7 +76,7 @@ export default function Footer() {
               <li>
                 <Link href="/kontak" className="hover:text-emerald-400 transition-colors flex items-center gap-2">
                   <svg className="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
-                  Kontak & Pengaduan Online
+                  Kontak
                 </Link>
               </li>
             </ul>
@@ -85,25 +85,18 @@ export default function Footer() {
           {/* Kolom 3: Jam Pelayanan */}
           <div>
             <h3 className="text-white font-bold text-base border-b border-slate-800 pb-2 mb-4 flex items-center justify-between">
-              <span>Jam Operasionl Kantor</span>
+              <span>Jam Operasional Kantor</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
             </h3>
             <div className="space-y-3 text-sm text-slate-400">
               <div className="flex justify-between pb-2 border-b border-slate-800/60">
-                <span className="font-medium text-slate-300">Senin - Kamis</span>
-                <span className="text-emerald-400 font-semibold">08:00 - 15:30 WIB</span>
-              </div>
-              <div className="flex justify-between pb-2 border-b border-slate-800/60">
-                <span className="font-medium text-slate-300">Jumat</span>
-                <span className="text-emerald-400 font-semibold">08:00 - 14:30 WIB</span>
+                <span className="font-medium text-slate-300">Senin - Jumat</span>
+                <span className="text-emerald-400 font-semibold">07:00 - 16:00 WITA</span>
               </div>
               <div className="flex justify-between">
                 <span className="font-medium text-slate-300">Sabtu & Minggu</span>
                 <span className="text-amber-500 font-semibold">Tutup / Libur</span>
               </div>
-              <p className="text-xs bg-slate-800/80 p-2.5 rounded-md border border-slate-700/50 mt-2 text-slate-300">
-                * Layanan darurat dan pelaporan aspirasi via website tetap beroperasi <strong>24 Jam Online</strong>.
-              </p>
             </div>
           </div>
 
