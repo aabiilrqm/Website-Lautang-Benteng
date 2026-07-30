@@ -120,6 +120,42 @@ export default function PotensiPage() {
           </div>
         </div>
 
+        {/* Peta Sebaran UMKM (Gambar) */}
+        <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 md:p-8 border border-slate-200/80 dark:border-slate-800 mb-12 shadow-sm hover:shadow-md transition-shadow">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
+            <div>
+              <span className="text-xs font-bold uppercase tracking-widest text-blue-500 mb-2 block">
+                Pemetaan Digital
+              </span>
+              <h2 className="text-2xl md:text-3xl font-black text-slate-800 dark:text-white flex items-center gap-3">
+                Peta Sebaran UMKM
+              </h2>
+              <p className="text-slate-600 dark:text-slate-300 mt-2 text-sm md:text-base max-w-2xl">
+                Jelajahi titik lokasi berbagai usaha mikro, kecil, dan menengah (UMKM) serta sentra ekonomi kreatif warga di wilayah Kelurahan Lautang Benteng.
+              </p>
+            </div>
+            <a 
+              href="/images/lautang_benteng.jpeg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-600 dark:bg-blue-950/40 dark:hover:bg-blue-900/60 dark:text-blue-300 rounded-full text-sm font-semibold transition-colors flex items-center gap-2 shrink-0"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+              Perbesar Peta
+            </a>
+          </div>
+          
+          <div className="relative w-full rounded-2xl overflow-hidden border-2 border-slate-100 dark:border-slate-800 shadow-inner group bg-slate-100 dark:bg-slate-950">
+            <div className="absolute inset-0 bg-blue-900/0 group-hover:bg-blue-900/10 transition-colors duration-300 z-10 pointer-events-none"></div>
+            <img
+              src="/images/lautang_benteng.jpeg"
+              alt="Peta Sebaran UMKM Kelurahan Lautang Benteng"
+              className="w-full h-auto max-h-[80vh] object-contain transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
         {/* Grid Card Potensi */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {potensiList.map((item) => (
