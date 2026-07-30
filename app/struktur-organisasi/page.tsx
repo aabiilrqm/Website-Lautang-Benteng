@@ -17,57 +17,104 @@ interface Official {
 
 const officials: Official[] = [
   {
-    name: "Lurah Lautang Benteng",
-    role: "Lurah Lautang Benteng",
-    nip: "19750101 200003 1 001",
+    name: "Andi Farahdiba, S.AP",
+    role: "Kepala Kelurahan",
+    nip: "19840229 201407 2 001",
     category: "pimpinan",
-    bio: "Memimpin pelaksanaan tugas pemerintahan, pembangunan, dan pembinaan kemasyarakatan di wilayah Kelurahan Lautang Benteng, Sidrap.",
+    bio: "Memimpin pelaksanaan tugas pemerintahan, pembangunan, dan pembinaan kemasyarakatan di wilayah Kelurahan Lautang Benteng.",
   },
   {
-    name: "Siti Rahmawati, S.STP.",
-    role: "Sekretaris Kelurahan (Sekdes/Seklur)",
-    nip: "19851024 200801 2 003",
+    name: "Muhammad Mustaqim, S.Sos",
+    role: "Sekretaris Kelurahan",
+    nip: "19791222 200604 1 012",
     category: "pimpinan",
-    bio: "Mengkoordinasikan urusan administrasi umum, keuangan, kepepegawaian, serta perlengkapan kesekretariatan.",
+    bio: "Mengkoordinasikan urusan administrasi umum, keuangan, kepegawaian, serta perlengkapan kesekretariatan.",
   },
   {
-    name: "Ir. H. Hendra Gunawan",
-    role: "Kasi Pemerintahan & Trantib",
-    nip: "19780415 200501 1 008",
+    name: "Masribulan, S.Sos",
+    role: "Kasi Pemerintahan",
+    nip: "19690316 200701 2 021",
     category: "staf",
-    bio: "Menangani administrasi kependudukan, pertahanan wilayah, keamanan, dan ketenteraman warga masyarakat.",
+    bio: "Menangani administrasi kependudukan, pertahanan wilayah, dan pelayanan masyarakat.",
   },
   {
-    name: "Nurul Aini, S.Sos.",
-    role: "Kasi Kesejahteraan Sosial (Kessos)",
-    nip: "19830719 201001 2 011",
+    name: "Andi Muhammad Karsa, SE",
+    role: "Kasi Pembangunan & Pemberdayaan",
+    nip: "19800916 2002121 005",
     category: "staf",
-    bio: "Membantu fasilitasi penyaluran bantuan sosial, program puskesmas/posyandu, kepemudaan, serta pendidikan anak.",
+    bio: "Menangani urusan pembangunan fisik, ekonomi, dan pemberdayaan masyarakat kelurahan.",
   },
   {
-    name: "Agus Prakoso, S.Kom.",
-    role: "Kasi Pelayanan & Inovasi Digital",
-    nip: "19910312 201503 1 002",
+    name: "Adi Nurdin, SH",
+    role: "Kasi Tertib dan Linmas",
+    nip: "19790829 201001 1 010",
     category: "staf",
-    bio: "Mengelola loket pelayanan publik surat-menyurat warga.",
+    bio: "Menangani urusan ketenteraman, ketertiban umum, dan perlindungan masyarakat (Linmas).",
   },
   {
-    name: "H. Mashudi, B.A.",
-    role: "Ketua Forum RW & LPMK",
-    category: "lembaga",
-    bio: "Koordinator perwakilan Rukun Warga (RW) dan Lembaga Pemberdayaan Masyarakat Kelurahan Lautang Benteng.",
+    name: "Rismawati",
+    role: "Staf Sekretariat",
+    nip: "19861022 201001 2 001",
+    category: "staf",
+    bio: "Membantu pelaksanaan tugas-tugas administratif dan pelayanan di kelurahan.",
   },
   {
-    name: "Ibu Hj. Ratmiatun",
-    role: "Ketua Tim Penggerak PKK Kelurahan",
-    category: "lembaga",
-    bio: "Menggerakkan 10 program pokok PKK guna membina kesejahteraan keluarga dan kewirausahaan kaum ibu di kelurahan.",
+    name: "Yanti Patong",
+    role: "Staf Sekretariat",
+    nip: "198213120 252112 1 13",
+    category: "staf",
+    bio: "Membantu pelaksanaan tugas-tugas administratif dan pelayanan di kelurahan.",
   },
   {
-    name: "Tim KKN Tematik Inovasi Desa",
-    role: "Mitra Inovasi Digital Unhas Gel. 116",
+    name: "Triyana Winda",
+    role: "Staf Kasi Pemerintahan",
+    nip: "20021217 202521 2 012",
+    category: "staf",
+    bio: "Membantu pelaksanaan tugas-tugas pada Seksi Pemerintahan.",
+  },
+  {
+    name: "Sridanty Jamaluddin",
+    role: "Staf Kasi Pembangunan & Pemberdayaan",
+    nip: "19940622 202521 2 089",
+    category: "staf",
+    bio: "Membantu pelaksanaan tugas-tugas pada Seksi Pembangunan dan Pemberdayaan.",
+  },
+  {
+    name: "Hardiyanti Anhar",
+    role: "Staf Kasi Tertib dan Linmas",
+    nip: "19900930 202521 2 106",
+    category: "staf",
+    bio: "Membantu pelaksanaan tugas-tugas pada Seksi Tertib dan Linmas.",
+  },
+  {
+    name: "Sertu Roy Tandi",
+    role: "Babinsa",
     category: "lembaga",
-    bio: "Mahasiswa KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116, mitra pengembang sistem informasi desa & kelurahan digital.",
+    bio: "Bintara Pembina Desa yang bertugas melaksanakan pembinaan teritorial di wilayah kelurahan.",
+  },
+  {
+    name: "Aipda Zainuddin",
+    role: "Bhabinkamtibmas",
+    category: "lembaga",
+    bio: "Bhayangkara Pembina Keamanan dan Ketertiban Masyarakat di wilayah kelurahan.",
+  },
+  {
+    name: "Muslimin K",
+    role: "Kepala Lingkungan 1",
+    category: "lembaga",
+    bio: "Membantu Lurah dalam pelaksanaan tugas pemerintahan dan pembinaan kemasyarakatan di Lingkungan 1.",
+  },
+  {
+    name: "Muh Syahwi",
+    role: "Kepala Lingkungan 2",
+    category: "lembaga",
+    bio: "Membantu Lurah dalam pelaksanaan tugas pemerintahan dan pembinaan kemasyarakatan di Lingkungan 2.",
+  },
+  {
+    name: "Muh Tahir",
+    role: "Kepala Lingkungan 3",
+    category: "lembaga",
+    bio: "Membantu Lurah dalam pelaksanaan tugas pemerintahan dan pembinaan kemasyarakatan di Lingkungan 3.",
   },
 ];
 
@@ -129,11 +176,11 @@ export default function StrukturOrganisasiPage() {
           </div>
         </div>
 
-        {/* Kepala Seksi & Pelayanan */}
+        {/* Kepala Seksi & Staf */}
         <div className="mb-14">
           <h2 className="text-xl font-extrabold text-slate-800 dark:text-white uppercase tracking-wider mb-6 pb-2 border-b border-slate-200 dark:border-slate-800 flex items-center gap-2">
             <span className="w-3 h-3 rounded-full bg-blue-500 inline-block"></span>
-            Kepala Seksi & Pelayanan Teknis
+            Kepala Seksi & Staf Kelurahan
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {officials
@@ -168,7 +215,7 @@ export default function StrukturOrganisasiPage() {
                   </div>
                   <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 text-right">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
-                      Seksi Pemerintahan & Pelayan
+                      Aparatur Kelurahan
                     </span>
                   </div>
                 </div>
