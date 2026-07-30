@@ -74,25 +74,15 @@ export default function HeroBanner() {
       {/* Floating Statistics Bottom Bar */}
       <div className="relative z-10 bg-slate-900/80 border-t border-slate-800/80 backdrop-blur-md py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 divide-y md:divide-y-0 md:divide-x divide-slate-800 text-center md:text-left">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 divide-y md:divide-y-0 md:divide-x divide-slate-800 text-center md:text-left">
             
             <div className="flex flex-col md:flex-row items-center gap-3 pt-4 md:pt-0 first:pt-0">
               <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shrink-0">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
               </div>
               <div>
-                <span className="block font-black text-2xl lg:text-3xl text-white">12.450+</span>
+                <span className="block font-black text-2xl lg:text-3xl text-white">6.027</span>
                 <span className="text-xs font-medium text-slate-400 uppercase tracking-wider">Total Penduduk (Jiwa)</span>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center gap-3 md:pl-8 pt-4 md:pt-0">
-              <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shrink-0">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
-              </div>
-              <div>
-                <span className="block font-black text-2xl lg:text-3xl text-white">15 / 64</span>
-                <span className="text-xs font-medium text-slate-400 uppercase tracking-wider">Jumlah RW / RT</span>
               </div>
             </div>
 
@@ -107,12 +97,12 @@ export default function HeroBanner() {
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-3 md:pl-8 pt-4 md:pt-0">
-              <div className="p-3 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 shrink-0">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+              <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20 shrink-0">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
               </div>
               <div>
-                <span className="block font-black text-2xl lg:text-3xl text-emerald-400">A+ (Bagus)</span>
-                <span className="text-xs font-medium text-slate-400 uppercase tracking-wider">Indeks Desa Membangun</span>
+                <span className="block font-black text-xl lg:text-2xl text-white">3.006 L / 3.021 P</span>
+                <span className="text-xs font-medium text-slate-400 uppercase tracking-wider">Rincian Gender</span>
               </div>
             </div>
 
