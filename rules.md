@@ -1,1 +1,1 @@
-saya sudah menggantinya menjadi .jpg, tampilkan di halaman website, buat tampilannya sesuai dan menarik
+saya sudah memasukkan url dan anon key nya, sekarang coba sambungkan ke supabase nya agar bisa menampilkan struktur organisasinya
