@@ -1,1 +1,3 @@
-saya sudah memasukkan url dan anon key nya, sekarang coba sambungkan ke supabase nya agar bisa menampilkan struktur organisasinya
+saya juga telah membuat tabel di supabase yaitu tabel bernama umkm, pada halaman potensi atau potensi kelurahan, saya ingin anda menampilkan semua umkm umkm yang ada didalam tabel tersebut, juga disitu ada foto dan itu masih belum ada gambarnya, kosongkan saja untuk saat ini, sesuaikan juga tampilannya agar enak dilihat. 
+
+juga hapus data yang sudah tidak terpakai pada halaman PotensiPage(), karena datanya sudah diganti dengan data dari supabase
