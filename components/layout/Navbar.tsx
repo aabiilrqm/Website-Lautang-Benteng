@@ -14,6 +14,7 @@ const navItems: NavItem[] = [
   { label: "Profil", href: "/profil" },
   { label: "Struktur Organisasi", href: "/struktur-organisasi" },
   { label: "Potensi Kelurahan", href: "/potensi" },
+  { label: "Berita & Kegiatan", href: "/berita" },
   { label: "Kontak", href: "/kontak" },
 ];
 

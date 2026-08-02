@@ -74,6 +74,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/berita" className="hover:text-emerald-400 transition-colors flex items-center gap-2">
+                  <svg className="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
+                  Berita & Kegiatan
+                </Link>
+              </li>
+              <li>
                 <Link href="/kontak" className="hover:text-emerald-400 transition-colors flex items-center gap-2">
                   <svg className="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
                   Kontak

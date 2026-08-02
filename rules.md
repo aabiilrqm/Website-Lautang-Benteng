@@ -1,3 +1,7 @@
-saya juga telah membuat tabel di supabase yaitu tabel bernama umkm, pada halaman potensi atau potensi kelurahan, saya ingin anda menampilkan semua umkm umkm yang ada didalam tabel tersebut, juga disitu ada foto dan itu masih belum ada gambarnya, kosongkan saja untuk saat ini, sesuaikan juga tampilannya agar enak dilihat. 
+saya ingin menambahkan satu halaman lagi, yaitu berita, 
 
-juga hapus data yang sudah tidak terpakai pada halaman PotensiPage(), karena datanya sudah diganti dengan data dari supabase
+dihalaman berita ini, semua kegiatan yang pernah terlaksana di kelurahan lautang benteng atau yang pernah dihadiri oleh ibu lurah itu disimpan, isinya itu seperti card, yang berisi foto, penjelasan, kapan kegiatan itu dilaksanakan, dll (isi seperlunya saja)
+
+dan juga ini saya rencana buat agar bisa ditambahkan nantinya (hanya admin atau staf kelurahan saja yang bisa dan berada di website yang berbeda lagi, jadi menu editnya tidak tampil di website ini)
+
+coba buatkan saya dulu template nya
