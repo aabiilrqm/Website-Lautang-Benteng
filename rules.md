@@ -1,7 +1,11 @@
-saya ingin menambahkan satu halaman lagi, yaitu berita, 
+saya sudah membuat tabel baru pada supabase yang khusus untuk halaman berita dan kegiatan. nama tabelnya itu adalah berita. 
 
-dihalaman berita ini, semua kegiatan yang pernah terlaksana di kelurahan lautang benteng atau yang pernah dihadiri oleh ibu lurah itu disimpan, isinya itu seperti card, yang berisi foto, penjelasan, kapan kegiatan itu dilaksanakan, dll (isi seperlunya saja)
+dan didalamnya itu ada : 
 
-dan juga ini saya rencana buat agar bisa ditambahkan nantinya (hanya admin atau staf kelurahan saja yang bisa dan berada di website yang berbeda lagi, jadi menu editnya tidak tampil di website ini)
+judul
+deskripsi 
+tanggal 
+foto 
+kategori
 
-coba buatkan saya dulu template nya
+anda bisa menampilkan data tersebut di halaman berita dan kegiatan, jangan pakai data dummy lagi, datanya bisa anda ambil pada supabase tersebut
