@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     "Bagan kepemimpinan dan jajaran pejabat fungsional Pemerintah Kelurahan Lautang Benteng beserta mitra KKN Tematik Inovasi Desa Unhas Gel. 116.",
 };
 
+export const revalidate = 0;
+
 interface Official {
   nama: string;
   role: string;
