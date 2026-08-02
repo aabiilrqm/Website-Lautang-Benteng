@@ -103,7 +103,7 @@ export default async function PotensiPage() {
             >
               {item.foto ? (
                 <div className="h-48 w-full relative overflow-hidden bg-slate-200 dark:bg-slate-800">
-                  <img src={item.foto} alt={item.nama} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={item.foto.trim()} alt={item.nama} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   <span className="absolute top-4 right-4 text-[11px] font-bold uppercase px-3 py-1 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 shadow-sm z-10">
                     UMKM
                   </span>
