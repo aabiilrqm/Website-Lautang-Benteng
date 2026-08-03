@@ -50,21 +50,8 @@ export default function Navbar() {
             href="/"
             className="flex items-center space-x-3 group transition-transform duration-200 hover:scale-101"
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-600 to-teal-800 flex items-center justify-center shadow-md shadow-emerald-500/20 text-white font-bold text-xl group-hover:from-emerald-500 group-hover:to-teal-700 transition-all">
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                />
-              </svg>
+            <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center shadow-sm p-1 shrink-0 group-hover:scale-105 transition-transform overflow-hidden border border-slate-100">
+              <img src="/images/sidrap.png" alt="Logo Sidrap" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg tracking-tight text-slate-800 dark:text-white leading-tight">

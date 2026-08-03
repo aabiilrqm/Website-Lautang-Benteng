@@ -14,10 +14,8 @@ export default function Footer() {
           {/* Kolom 1: Informasi Kelurahan */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center shadow-md shadow-emerald-500/20 text-white font-bold text-lg">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
+              <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center shadow-md p-1 shrink-0 overflow-hidden">
+                <img src="/images/sidrap.png" alt="Logo Sidrap" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-white text-lg tracking-tight leading-tight">
@@ -31,9 +29,12 @@ export default function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed">
               Portal resmi Pemerintah Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang, Sulawesi Selatan. Berkomitmen memberikan pelayanan publik yang cepat, transparan, dan inovatif.
             </p>
-            <div className="pt-1">
-              <span className="inline-block bg-emerald-950 border border-emerald-700/60 text-emerald-300 text-xs px-2.5 py-1 rounded-md font-semibold">
-                🎓 Inisiatif KKN Tematik Inovasi Desa Unhas Gel. 116
+            <div className="pt-1 flex items-center gap-2">
+              <div className="w-10 h-10 rounded-lg bg-white p-1 flex items-center justify-center shrink-0 shadow-sm overflow-hidden">
+                <img src="/images/logo_kkn_f.png" alt="Logo KKN" className="w-full h-full object-contain" />
+              </div>
+              <span className="inline-block bg-emerald-950 border border-emerald-700/60 text-emerald-300 text-xs px-2.5 py-1.5 rounded-md font-semibold leading-tight">
+                Inisiatif KKN Tematik<br/>Inovasi Desa Unhas Gel. 116
               </span>
             </div>
             <div className="flex items-center space-x-3 pt-2">
