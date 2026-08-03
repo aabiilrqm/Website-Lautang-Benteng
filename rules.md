@@ -1,11 +1,1 @@
-saya sudah membuat tabel baru pada supabase yang khusus untuk halaman berita dan kegiatan. nama tabelnya itu adalah berita. 
-
-dan didalamnya itu ada : 
-
-judul
-deskripsi 
-tanggal 
-foto 
-kategori
-
-anda bisa menampilkan data tersebut di halaman berita dan kegiatan, jangan pakai data dummy lagi, datanya bisa anda ambil pada supabase tersebut
+dari yang saya lihat, untuk setiap halamannya itu memiliki latar belakang warna atau tema yang berbeda, misalnya saja pada halaman profil, struktur, berita, kontak,dll itu memiliki warna yang berbeda. bisakah anda membuat agar semuanya itu memiliki tema yang seragam? saya menginginkan yang lebih simple dan kelihatan kuat saja, maksudnya tidak usah terlalu berwarna, buat simpel saja

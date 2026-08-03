@@ -11,10 +11,10 @@ export default function ProfilPage() {
   return (
     <div className="bg-white dark:bg-slate-950 pb-20">
       {/* Header Banner */}
-      <div className="bg-gradient-to-r from-emerald-800 to-teal-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] opacity-10"></div>
         <div className="max-w-5xl mx-auto relative z-10 text-center sm:text-left">
-          <span className="text-xs font-bold uppercase tracking-widest bg-emerald-500/20 border border-emerald-400/30 px-3 py-1 rounded-full text-emerald-300">
+          <span className="text-xs font-bold uppercase tracking-widest bg-slate-800 border border-slate-700 px-3 py-1 rounded-full text-slate-300">
             Tentang Kami
           </span>
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
@@ -119,7 +119,7 @@ export default function ProfilPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-gradient-to-r from-slate-900 to-emerald-950 p-8 rounded-3xl text-white shadow-md">
+          <div className="mt-8 bg-slate-900 p-8 rounded-3xl text-white shadow-md">
             <h3 className="text-xl font-bold mb-4 text-emerald-300">Batas Wilayah Kelurahan</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
               <div className="bg-white/5 p-4 rounded-xl border border-white/10">

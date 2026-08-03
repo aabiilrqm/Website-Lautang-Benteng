@@ -4,9 +4,10 @@ export default function KontakPage() {
   return (
     <div className="bg-slate-50 dark:bg-slate-950 pb-24 min-h-screen">
       {/* Header Banner */}
-      <div className="bg-gradient-to-r from-teal-800 via-emerald-800 to-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <span className="text-xs font-bold uppercase tracking-widest bg-teal-500/20 border border-teal-400/30 px-3 py-1 rounded-full text-teal-300">
+      <div className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] opacity-10"></div>
+        <div className="max-w-3xl mx-auto relative z-10 text-center">
+          <span className="text-xs font-bold uppercase tracking-widest bg-slate-800 border border-slate-700 px-3 py-1 rounded-full text-slate-300">
             Pusat Informasi
           </span>
           <h1 className="text-3xl sm:text-5xl font-black mt-4">

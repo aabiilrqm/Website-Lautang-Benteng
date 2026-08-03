@@ -30,9 +30,10 @@ export default async function StrukturOrganisasiPage() {
   return (
     <div className="bg-slate-50 dark:bg-slate-950 pb-24">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto text-center sm:text-left">
-          <span className="text-xs font-bold uppercase tracking-widest bg-blue-500/20 border border-blue-400/30 px-3 py-1 rounded-full text-blue-300">
+      <div className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] opacity-10"></div>
+        <div className="max-w-5xl mx-auto relative z-10 text-center sm:text-left">
+          <span className="text-xs font-bold uppercase tracking-widest bg-slate-800 border border-slate-700 px-3 py-1 rounded-full text-slate-300">
             Pemerintahan & Kelembagaan
           </span>
           <h1 className="text-3xl sm:text-5xl font-black mt-4">

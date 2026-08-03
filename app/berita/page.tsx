@@ -30,18 +30,19 @@ export default async function BeritaPage() {
   return (
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen pb-24">
       {/* Header Banner */}
-      <div className="bg-gradient-to-r from-rose-900 via-pink-900 to-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Dekorasi Background */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-rose-500/20 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] opacity-10"></div>
+        <div className="absolute top-0 right-0 w-64 h-64 bg-slate-700/30 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
         
         <div className="max-w-5xl mx-auto text-center sm:text-left relative z-10">
-          <span className="text-xs font-bold uppercase tracking-widest bg-rose-500/20 border border-rose-400/30 px-3 py-1 rounded-full text-rose-300 shadow-sm">
+          <span className="text-xs font-bold uppercase tracking-widest bg-slate-800 border border-slate-700 px-3 py-1 rounded-full text-slate-300 shadow-sm">
             Publikasi & Dokumentasi
           </span>
           <h1 className="text-3xl sm:text-5xl font-black mt-4 tracking-tight drop-shadow-sm">
             Berita & Kegiatan Kelurahan
           </h1>
-          <p className="mt-4 text-rose-100 text-base sm:text-lg max-w-2xl leading-relaxed drop-shadow-sm">
+          <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed drop-shadow-sm">
             Rekam jejak, agenda penting, dan dokumentasi berbagai kegiatan yang telah terlaksana serta dihadiri oleh jajaran Pemerintah Kelurahan Lautang Benteng.
           </p>
         </div>
@@ -75,7 +76,7 @@ export default async function BeritaPage() {
                   )}
                   
                   {/* Badge Kategori - Melayang di atas foto */}
-                  <div className="absolute top-4 right-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-rose-600 dark:text-rose-400 shadow-sm border border-white/20 dark:border-slate-700/50">
+                  <div className="absolute top-4 right-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-800 dark:text-slate-300 shadow-sm border border-white/20 dark:border-slate-700/50">
                     {item.kategori}
                   </div>
                 </div>
@@ -84,12 +85,12 @@ export default async function BeritaPage() {
                 <div className="p-6 md:p-8 flex-1 flex flex-col">
                   {/* Tanggal */}
                   <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 dark:text-slate-400 mb-3">
-                    <svg className="w-4 h-4 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                    <svg className="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                     <span>{item.tanggal}</span>
                   </div>
 
                   {/* Judul */}
-                  <h2 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white leading-tight mb-3 group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+                  <h2 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white leading-tight mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
                     {item.judul}
                   </h2>
 
