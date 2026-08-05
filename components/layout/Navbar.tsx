@@ -78,9 +78,6 @@ export default function Navbar() {
                   }`}
                 >
                   {item.label}
-                  {isActive && (
-                    <span className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-emerald-600 dark:bg-emerald-400"></span>
-                  )}
                 </Link>
               );
             })}
@@ -140,9 +137,6 @@ export default function Navbar() {
                 >
                   <div className="flex items-center justify-between">
                     <span>{item.label}</span>
-                    {isActive && (
-                      <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
-                    )}
                   </div>
                 </Link>
               );
