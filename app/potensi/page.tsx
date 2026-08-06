@@ -31,7 +31,7 @@ export default async function PotensiPage() {
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
             Potensi Unggulan Kelurahan
           </h1>
-          <p className="mt-4 text-amber-100 text-base sm:text-lg max-w-2xl leading-relaxed">
+          <p className="mt-4 text-white text-base sm:text-lg max-w-2xl leading-relaxed">
             Menampilkan kekayaan kreativitas UMKM warga, produk kerajinan, budidaya pertanian, dan program inovasi digital yang didukung oleh KKN Tematik Inovasi Desa Unhas Gel. 116 di Lautang Benteng, Sidrap.
           </p>
         </div>

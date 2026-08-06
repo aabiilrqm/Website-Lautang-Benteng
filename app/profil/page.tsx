@@ -20,7 +20,7 @@ export default function ProfilPage() {
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
             Profil Kelurahan Lautang Benteng
           </h1>
-          <p className="mt-4 text-emerald-100 text-base sm:text-lg max-w-2xl leading-relaxed">
+          <p className="mt-4 text-white text-base sm:text-lg max-w-2xl leading-relaxed">
             Mengenal lebih dekat visi misi, kondisi kemasyarakatan, serta demografi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang, Sulawesi Selatan.
           </p>
         </div>

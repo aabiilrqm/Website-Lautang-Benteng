@@ -42,7 +42,7 @@ export default async function BeritaPage() {
           <h1 className="text-3xl sm:text-5xl font-black mt-4 tracking-tight drop-shadow-sm">
             Berita & Kegiatan Kelurahan
           </h1>
-          <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed drop-shadow-sm">
+          <p className="mt-4 text-white text-base sm:text-lg max-w-2xl leading-relaxed drop-shadow-sm">
             Rekam jejak, agenda penting, dan dokumentasi berbagai kegiatan yang telah terlaksana serta dihadiri oleh jajaran Pemerintah Kelurahan Lautang Benteng.
           </p>
         </div>

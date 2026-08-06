@@ -21,11 +21,6 @@ export default function HeroBanner() {
 
       {/* Main Content Area */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12 my-auto flex flex-col items-start text-left">
-        {/* Badge / Motto */}
-        <div className="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs sm:text-sm font-semibold mb-6 backdrop-blur-md shadow-inner">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-          <span>Portal Resmi & Layanan Digital | KKN Tematik Inovasi Desa Unhas Gel. 116</span>
-        </div>
 
         {/* Hero Heading */}
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight max-w-4xl drop-shadow-sm">
@@ -36,7 +31,7 @@ export default function HeroBanner() {
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-6 text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl font-normal leading-relaxed text-balance drop-shadow-sm">
+        <p className="mt-6 text-base sm:text-lg lg:text-xl text-white max-w-2xl font-normal leading-relaxed text-balance drop-shadow-sm">
           Selamat datang di website resmi Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang (Sidrap), Sulawesi Selatan. Mewujudkan tata kelola pemerintahan yang cepat, transparan, dan akuntabel bersama KKN Tematik Inovasi Desa Universitas Hasanuddin Gelombang 116.
         </p>
 

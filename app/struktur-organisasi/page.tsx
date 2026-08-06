@@ -39,7 +39,7 @@ export default async function StrukturOrganisasiPage() {
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
             Struktur Organisasi Kelurahan
           </h1>
-          <p className="mt-4 text-blue-100 text-base sm:text-lg max-w-2xl leading-relaxed">
+          <p className="mt-4 text-white text-base sm:text-lg max-w-2xl leading-relaxed">
             Mengenal jajaran kepemimpinan pejabat kelurahan, para kepala seksi, pimpinan kelembagaan, serta mitra dari KKN Tematik Inovasi Desa Unhas Gel. 116 yang bersinergi melayani warga Kelurahan Lautang Benteng, Sidrap.
           </p>
         </div>

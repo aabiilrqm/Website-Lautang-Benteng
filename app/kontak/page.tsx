@@ -13,7 +13,7 @@ export default function KontakPage() {
           <h1 className="text-3xl sm:text-5xl font-black mt-4">
             Kontak Kami
           </h1>
-          <p className="mt-4 text-teal-100 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 text-white text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
             Hubungi kantor Kelurahan Lautang Benteng, Kecamatan Maritengngae, Kabupaten Sidenreng Rappang untuk informasi lebih lanjut mengenai layanan kelurahan.
           </p>
         </div>
